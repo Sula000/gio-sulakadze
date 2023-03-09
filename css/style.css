@@ -1,0 +1,221 @@
+body {
+    overflow-x: hidden;
+
+}
+
+.main {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header {
+    /* border: 2px solid yellow; */
+    padding: 49px 0 44px 0;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    z-index: 2;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+ul {
+    /* border: 2px solid yellow; */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    gap: 68px;
+}
+
+.icon {
+    font-size: 36px;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+/* დამთავრდა header და იწყება section */
+
+.main_div_img {
+    /* border: 2px solid yellow; */
+    margin-top: 129px;
+    width: 100%;
+    height: 1080px;
+    position: relative;
+}
+
+.main_photo {
+    width: 100%;
+    height: 100%;
+}
+
+.div_p {
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p1 {
+    font-size: 82px;
+    margin-bottom: 161px;
+
+}
+
+.p2 {
+    font-size: 24px;
+}
+
+.div_search {
+    width: 463px;
+    padding: 10px 12px 11px 30px;
+    border-radius: 50px;
+    margin: 24px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_icon {
+    font-size: 50px;
+}
+
+/* Best Seller Product-ის დივი */
+
+.product_div {
+    /* border: 2px solid black; */
+    max-width: 1280px;
+    width: 100%;
+    margin: 245px auto 0 auto;
+}
+
+.h1 {
+    color: #081323;
+    font-size: 75.6332px;
+}
+
+.product_div2 {
+    /* border: 2px solid black; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.figure {
+    border: 2px solid #DCB47A;
+}
+
+.fg_img {
+    margin: 30px 44px 50px 44px;
+}
+
+figcaption {
+    margin: 0 41px 30px 41px;
+}
+
+.div_fg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.P_dolar {
+    margin-top: 17px;
+}
+
+.fg_a {
+    color: #000000;
+}
+
+/* Interior Plant Reference-ის დივი */
+
+.main_div_photo {
+    /* border: 5px solid black; */
+    max-width: 1280px;
+    width: 100%;
+    height: 1504px;
+    margin: 245px auto;
+}
+
+.h2 {
+    color: #081323;
+    font-size: 64px;
+}
+
+.div_photo {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fg {
+    margin-top: 59px;
+}
+
+/*  ფოტოს ვერ დავასვი ნაწერი არ დაჯდა ქვემოთ აგდებდა */
+/* .realitive {
+    position: relative;
+
+} */
+
+/* .img_p {
+    color: #FFFFFF;
+    font-size: 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+
+
+/* დამტავრდა section დაიწყო footer */
+
+footer {
+    width: 100%;
+    padding: 71px 0 76px 0;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ft_p {
+    color: #FFFFFF;
+    font-size: 63px;
+}
+
+span {
+    color: #DCB47A;
+}
+
+.ft_p2 {
+    color: #FFFFFFCC;
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+.btn {
+    margin-top: 36px;
+    width: 205px;
+    height: 65px;
+    color: #FFFFFF;
+    background-color: #DCB47A;
+    border-radius: 60px;
+}
